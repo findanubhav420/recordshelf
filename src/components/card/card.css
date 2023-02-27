@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(59, 58, 58, 0.5);
+}
+
+.card-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#song-image{
+    width: 70%;
+    /* height: 100%; */
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 65%;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: 200;   
+    display: inline-block;
+    align-self: start;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+    -webkit-line-clamp: 0;   
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-subtitle{
+    font-size: 15px;
+    font-weight: 700;
+    align-self: start;
+}
+
+.card-icon{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+
+  #heart-button{
+    background-color: transparent;
+    border: none;
+  }
+
+  @media only screen and (max-width:450px) {
+    .card{
+        width:95%;
+    }
+    #song-image{
+        width: 50%;
+    }
+  }
+
+

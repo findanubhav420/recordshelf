@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.genres-body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.genres-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   
+    width: 57%;
+    /* border: 2px solid black; */
+}
+
+@media only screen and (max-width:450px){
+    .genres-body{
+        width:100%;
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #38497e;
+    color : #fff;
+    /* height: 6.5vh; */
+    width: 100%;
+    font-size: large;
+    padding-left: 20px;
+}
+
+header h1{
+  font-size: 50px;
+  font-weight: 200;
+  font: poppins;
+  margin-left: 20px;
+}
+.bold{
+    font-weight: 800;
+}
+
+@media only screen and (max-width : 415px) {
+    
+    header h1{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+}
